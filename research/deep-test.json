@@ -1,0 +1,50 @@
+{
+  "checks": {
+    "projects": {
+      "title": "MOMO CODE",
+      "loaded": true,
+      "images": [
+        "../../momozi/momo-code.png",
+        "../../momozi/momo-code-screen.png",
+        "../../momozi/momo-code-architecture.png"
+      ]
+    },
+    "projectNext": "MOMO CODE",
+    "lab": {
+      "title": "momozi-VibeGamingBench",
+      "loaded": true
+    },
+    "whisper": {
+      "connected": true,
+      "items": [
+        "Hello from MoMoZi!"
+      ]
+    },
+    "quality": 1,
+    "bowling": {
+      "pins": 10,
+      "ball": {
+        "x": 11.827816009521484,
+        "y": 0.9730947017669678,
+        "z": 67.78175354003906
+      }
+    },
+    "circuit": {
+      "state": 3,
+      "timer": 0.5333000000000041,
+      "filters": [
+        "racing"
+      ]
+    },
+    "reset": {
+      "position": {
+        "x": -13.71059799194336,
+        "y": 1.1160681247711182,
+        "z": 14.699318885803223
+      },
+      "reveal": 2
+    }
+  },
+  "errors": [],
+  "failed": []
+}

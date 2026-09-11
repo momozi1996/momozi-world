@@ -1,0 +1,1764 @@
+{
+  "sha": "6922581961d543850dda9309be7f1e26c77b90d5",
+  "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/6922581961d543850dda9309be7f1e26c77b90d5",
+  "tree": [
+    {
+      "path": ".githooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f10922864788526b7cf6f83ddf672a3e1900002",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/9f10922864788526b7cf6f83ddf672a3e1900002"
+    },
+    {
+      "path": ".githooks/pre-commit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3fdf2ce44a513feb46528f0f704cb02b8ae2014",
+      "size": 469,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/d3fdf2ce44a513feb46528f0f704cb02b8ae2014"
+    },
+    {
+      "path": ".githooks/pre-push",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a74635b10727980c0d501756e29928886aea30d",
+      "size": 484,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/2a74635b10727980c0d501756e29928886aea30d"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7d82990da448dd3d0c10c4a791d18e4e18bcbad",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/e7d82990da448dd3d0c10c4a791d18e4e18bcbad"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3be2f2a278b0354b1c4e9f971666e530eb7a61aa",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/3be2f2a278b0354b1c4e9f971666e530eb7a61aa"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54e35acd4b160ca536a9807ceb9beef94111400a",
+      "size": 147,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/54e35acd4b160ca536a9807ceb9beef94111400a"
+    },
+    {
+      "path": ".github/RELEASE_CHECKLIST.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7329e819580cec36fe5fc474fac4c9d7d619a4d6",
+      "size": 1547,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7329e819580cec36fe5fc474fac4c9d7d619a4d6"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3dafcac02e14c351db468160ae8cc2980c2c5b72",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/3dafcac02e14c351db468160ae8cc2980c2c5b72"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45ff5bafa1b74ab8a4295c8b68068c2733fdffee",
+      "size": 1649,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/45ff5bafa1b74ab8a4295c8b68068c2733fdffee"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e768b7ddc176b0495336641c19eff40143433fd6",
+      "size": 586,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/e768b7ddc176b0495336641c19eff40143433fd6"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039dc431e915058ad882f2f09ec1e96022ea5d48",
+      "size": 153,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/039dc431e915058ad882f2f09ec1e96022ea5d48"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5df87181b009871e3bd825ffd2bea794f0d52ea",
+      "size": 3742,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/f5df87181b009871e3bd825ffd2bea794f0d52ea"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe75a42abf286a318a9a0a3ff4674db756b53619",
+      "size": 2186,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/fe75a42abf286a318a9a0a3ff4674db756b53619"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "474aee6fb219b3b8d401ec2ea727692154757e52",
+      "size": 928,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/474aee6fb219b3b8d401ec2ea727692154757e52"
+    },
+    {
+      "path": "INSTALL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf1f54cea70101ef78c6874b22ea3eb419dc425",
+      "size": 6693,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/8bf1f54cea70101ef78c6874b22ea3eb419dc425"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff03fe851b417513bdc03fb27bc05b77011dae3c",
+      "size": 1287,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ff03fe851b417513bdc03fb27bc05b77011dae3c"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa937d9566bee8710f57f6d63b928aa27c19f581",
+      "size": 480,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/aa937d9566bee8710f57f6d63b928aa27c19f581"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37815bff7eb17fac21660b52e267681df354425a",
+      "size": 24240,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/37815bff7eb17fac21660b52e267681df354425a"
+    },
+    {
+      "path": "README_zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5af74e04388af360f4b2a802ba5aa76a6f5b4ce4",
+      "size": 15926,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5af74e04388af360f4b2a802ba5aa76a6f5b4ce4"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb0f22b3c1de040a29350a82e1a03b1cdb43b03",
+      "size": 1588,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ceb0f22b3c1de040a29350a82e1a03b1cdb43b03"
+    },
+    {
+      "path": "USER_GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "871a8ab408d8ccbd9346b673da8d024a8d36e8eb",
+      "size": 7965,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/871a8ab408d8ccbd9346b673da8d024a8d36e8eb"
+    },
+    {
+      "path": "USE_RESTRICTIONS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80713d0a7128969a27aa5981079021fce3a9bd36",
+      "size": 1732,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/80713d0a7128969a27aa5981079021fce3a9bd36"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7830fa0e456bcb4a66040e9a680ebb20b5b04fb",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/a7830fa0e456bcb4a66040e9a680ebb20b5b04fb"
+    },
+    {
+      "path": "docs/build-release.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74ae83570f3398ea2033238ce0b39ecf46ed52d3",
+      "size": 1565,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/74ae83570f3398ea2033238ce0b39ecf46ed52d3"
+    },
+    {
+      "path": "docs/optim.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "471136d2533b1521fc7870bedb24c7967a3e525a",
+      "size": 5783,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/471136d2533b1521fc7870bedb24c7967a3e525a"
+    },
+    {
+      "path": "docs/self-evolution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d0b8cde497c6e788f70f3fec9934d9385f607a",
+      "size": 4689,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/04d0b8cde497c6e788f70f3fec9934d9385f607a"
+    },
+    {
+      "path": "install",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69bc1322f901b5964f91c22adefae4948a1ab66",
+      "size": 11347,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/d69bc1322f901b5964f91c22adefae4948a1ab66"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70d1f348645f1cf8b8ce170b86f4940de1c2dc67",
+      "size": 663,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/70d1f348645f1cf8b8ce170b86f4940de1c2dc67"
+    },
+    {
+      "path": "packages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db878cb41819e9cf836a119e4e633e7097b6ac5f",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/db878cb41819e9cf836a119e4e633e7097b6ac5f"
+    },
+    {
+      "path": "packages/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c7f497736064a83a02ad5ef2671e1ca205c0163",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/8c7f497736064a83a02ad5ef2671e1ca205c0163"
+    },
+    {
+      "path": "packages/core/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "105b939bbd728623f46a3a1994ebe1e9d19b8220",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/105b939bbd728623f46a3a1994ebe1e9d19b8220"
+    },
+    {
+      "path": "packages/core/src/flag",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "323c2f5feb85851ec7c3ffd0b37613248009e3fe",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/323c2f5feb85851ec7c3ffd0b37613248009e3fe"
+    },
+    {
+      "path": "packages/core/src/flag/flag.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5997416cab299356d7034a3615bd79c70187da2a",
+      "size": 4289,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5997416cab299356d7034a3615bd79c70187da2a"
+    },
+    {
+      "path": "packages/opencode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad0846205fc9ac9928cf0995c0a590c2f4abb3ce",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/ad0846205fc9ac9928cf0995c0a590c2f4abb3ce"
+    },
+    {
+      "path": "packages/opencode/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e5e3ba746041a6e227e19db30e9616513f6051",
+      "size": 12613,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/b7e5e3ba746041a6e227e19db30e9616513f6051"
+    },
+    {
+      "path": "packages/opencode/bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bcf81cec73d2d838182a49d157e771dcaa40dab",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/3bcf81cec73d2d838182a49d157e771dcaa40dab"
+    },
+    {
+      "path": "packages/opencode/bin/momo",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be0e77bbed58c3a8178d1345d500b85716bc7c2",
+      "size": 8635,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/3be0e77bbed58c3a8178d1345d500b85716bc7c2"
+    },
+    {
+      "path": "packages/opencode/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9da4da5ed1de75e03ed0a56e361804dda0d768e",
+      "size": 56596,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/a9da4da5ed1de75e03ed0a56e361804dda0d768e"
+    },
+    {
+      "path": "packages/opencode/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71b7b20f46d98ad2f168a78c6f88f3c5fdde9708",
+      "size": 1976,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/71b7b20f46d98ad2f168a78c6f88f3c5fdde9708"
+    },
+    {
+      "path": "packages/opencode/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d15196ee5fd5610a8d6052fb64f54c8ea5a9a200",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/d15196ee5fd5610a8d6052fb64f54c8ea5a9a200"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ade8348449f16f86189c12056c6392cec6dd6aa4",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/ade8348449f16f86189c12056c6392cec6dd6aa4"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db38c5ea9f901904b0e7fb17cec81aee16e500b0",
+      "size": 72,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/db38c5ea9f901904b0e7fb17cec81aee16e500b0"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8e7baa5a52de4f01b4a471a5b2f88ace76d7fea",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/f8e7baa5a52de4f01b4a471a5b2f88ace76d7fea"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/examples/pick_and_place.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a403429871a73efc2afd4bbd5322c45a1d766e3",
+      "size": 2867,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7a403429871a73efc2afd4bbd5322c45a1d766e3"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/examples/safety_demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24d7fdce9775de45c17617dcebfe7d99dbe624f",
+      "size": 1862,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/f24d7fdce9775de45c17617dcebfe7d99dbe624f"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/examples/sensors_demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ede7893b431bb7604005f9684f86b6e3b16c510",
+      "size": 1946,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/4ede7893b431bb7604005f9684f86b6e3b16c510"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/perception.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ee88c3b59e72b05881ce02a7bf365cd3fad804",
+      "size": 2363,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/52ee88c3b59e72b05881ce02a7bf365cd3fad804"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/safety.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd4298316aa956aa72db64c0278a74d8be21461",
+      "size": 8177,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/8dd4298316aa956aa72db64c0278a74d8be21461"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/sensors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e066e9380f0264fa203f9111993922a374dce320",
+      "size": 10426,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/e066e9380f0264fa203f9111993922a374dce320"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6a5b06038028bd0b074341c8a11682c2903d72f",
+      "size": 13017,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/c6a5b06038028bd0b074341c8a11682c2903d72f"
+    },
+    {
+      "path": "packages/opencode/python/genesis_world/workbench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6c10d52d9b7996594040d63a5571a5551bc923b",
+      "size": 15630,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/f6c10d52d9b7996594040d63a5571a5551bc923b"
+    },
+    {
+      "path": "packages/opencode/python/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ec43347cb3c2b180f4063de96116169a9dc647f",
+      "size": 301,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/1ec43347cb3c2b180f4063de96116169a9dc647f"
+    },
+    {
+      "path": "packages/opencode/python/voice",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4fb18fdb334fad2b4162388d4bec1d2eff5526f",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/c4fb18fdb334fad2b4162388d4bec1d2eff5526f"
+    },
+    {
+      "path": "packages/opencode/python/voice/record.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10a836e5338a078e04aab3df05698dc61e3e7202",
+      "size": 1615,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/10a836e5338a078e04aab3df05698dc61e3e7202"
+    },
+    {
+      "path": "packages/opencode/script",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24f7a3b8bc1185250b942661390a4fd48e433cd1",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/24f7a3b8bc1185250b942661390a4fd48e433cd1"
+    },
+    {
+      "path": "packages/opencode/script/build-all.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "228abf24649e07e1560f5db3ac4b117dbbb8d419",
+      "size": 1100,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/228abf24649e07e1560f5db3ac4b117dbbb8d419"
+    },
+    {
+      "path": "packages/opencode/script/build.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed39766a8c4ee21b260d901b24a092a26a12b77",
+      "size": 7069,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/eed39766a8c4ee21b260d901b24a092a26a12b77"
+    },
+    {
+      "path": "packages/opencode/script/postinstall.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b3b38d4fa29eefadb6b122bd4b335cc0fc7ebcf",
+      "size": 5466,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/0b3b38d4fa29eefadb6b122bd4b335cc0fc7ebcf"
+    },
+    {
+      "path": "packages/opencode/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3158bb701056bf35ff90655a6e35cad9a6114dbe",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/3158bb701056bf35ff90655a6e35cad9a6114dbe"
+    },
+    {
+      "path": "packages/opencode/scripts/fix-esm.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca97d438d5170f49804bb82655389411b1d10004",
+      "size": 3262,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ca97d438d5170f49804bb82655389411b1d10004"
+    },
+    {
+      "path": "packages/opencode/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a94b054153769d4f3ceedb7174fcc300b76a78e",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/8a94b054153769d4f3ceedb7174fcc300b76a78e"
+    },
+    {
+      "path": "packages/opencode/src/auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a67f71d485390977147c7bfb4c74023093f2a62c",
+      "size": 4249,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/a67f71d485390977147c7bfb4c74023093f2a62c"
+    },
+    {
+      "path": "packages/opencode/src/cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8dd13669e5fd4af34e792a348850a6200994270d",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/8dd13669e5fd4af34e792a348850a6200994270d"
+    },
+    {
+      "path": "packages/opencode/src/cli/banner.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b03999ae2663fe0fc96eb3eea8c998aa615f348",
+      "size": 3212,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/0b03999ae2663fe0fc96eb3eea8c998aa615f348"
+    },
+    {
+      "path": "packages/opencode/src/cli/chat.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891043a3f517eb68001f5a100e71010523eee3f7",
+      "size": 19017,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/891043a3f517eb68001f5a100e71010523eee3f7"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5ac2b192119f31c475f666617113668d16a5fd1",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/f5ac2b192119f31c475f666617113668d16a5fd1"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/agent.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7997aea6aaf870647e071d8586b159fb13f9ff8",
+      "size": 2611,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/e7997aea6aaf870647e071d8586b159fb13f9ff8"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/daemon.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "051bc3202232cd0a16fdcc0e9917bc48a9d7518a",
+      "size": 3038,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/051bc3202232cd0a16fdcc0e9917bc48a9d7518a"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/evolve.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c82522cd8abd0d8648150c4fe55154ef86b38948",
+      "size": 26658,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/c82522cd8abd0d8648150c4fe55154ef86b38948"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/finetune.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "708db027f04d760497eebc5d46b429040a17a5d3",
+      "size": 19840,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/708db027f04d760497eebc5d46b429040a17a5d3"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/goal.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e12db991156e5eb2fd2b0078abc0c3252968ca81",
+      "size": 4001,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/e12db991156e5eb2fd2b0078abc0c3252968ca81"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/graph.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a8791be95dc15d851aee12aa53346b831a505a1",
+      "size": 11397,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/6a8791be95dc15d851aee12aa53346b831a505a1"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/heartbeat.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bac64f72c42c29c6b56d85e029216a96482dcbb",
+      "size": 1668,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7bac64f72c42c29c6b56d85e029216a96482dcbb"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/models.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9549644e36d8444abe1eec1c0a5b412e16f37f3",
+      "size": 6032,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/e9549644e36d8444abe1eec1c0a5b412e16f37f3"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/optim.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3610b07a76af88c569ecd5547ed2bd6e3d48d20c",
+      "size": 15465,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/3610b07a76af88c569ecd5547ed2bd6e3d48d20c"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/refine.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a25e28a94f9804be0e3000c4340569f49d32b78",
+      "size": 7518,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7a25e28a94f9804be0e3000c4340569f49d32b78"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/schedule.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca15c5a3621465fa2ec9f8988b9ad6ed20de4fdd",
+      "size": 3992,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ca15c5a3621465fa2ec9f8988b9ad6ed20de4fdd"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/serve.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4401fc2485d014188d051be9f65eafdfb7dcccb1",
+      "size": 1585,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/4401fc2485d014188d051be9f65eafdfb7dcccb1"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/sim.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab26316af95edefe0030d4b9efbf5c8872d37225",
+      "size": 11038,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ab26316af95edefe0030d4b9efbf5c8872d37225"
+    },
+    {
+      "path": "packages/opencode/src/cli/cmd/voice.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "416414708db3c7abcd5a0758fe6f7f88c09ba563",
+      "size": 3886,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/416414708db3c7abcd5a0758fe6f7f88c09ba563"
+    },
+    {
+      "path": "packages/opencode/src/cli/help.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4141053aa7b251a07b39de1ba459bc1d275175dd",
+      "size": 6502,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/4141053aa7b251a07b39de1ba459bc1d275175dd"
+    },
+    {
+      "path": "packages/opencode/src/cli/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "902733ffa6000385848949d1afe21a35b29e2f1d",
+      "size": 3892,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/902733ffa6000385848949d1afe21a35b29e2f1d"
+    },
+    {
+      "path": "packages/opencode/src/cli/main.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03d6148fbdb7d717a87a08ad81180191036a8931",
+      "size": 1435,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/03d6148fbdb7d717a87a08ad81180191036a8931"
+    },
+    {
+      "path": "packages/opencode/src/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "653b724ea9dea4984130db81582e227a1b9504f9",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/653b724ea9dea4984130db81582e227a1b9504f9"
+    },
+    {
+      "path": "packages/opencode/src/config/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b68c6f7aa73c7818a15496f1d727418271cb6e1",
+      "size": 7087,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/9b68c6f7aa73c7818a15496f1d727418271cb6e1"
+    },
+    {
+      "path": "packages/opencode/src/effect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "613fb036afec98ed399fcb75c9cb74b86310ff0c",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/613fb036afec98ed399fcb75c9cb74b86310ff0c"
+    },
+    {
+      "path": "packages/opencode/src/effect/bridge.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5957aad233d2688e7107626694846dd2e0a728ba",
+      "size": 1105,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5957aad233d2688e7107626694846dd2e0a728ba"
+    },
+    {
+      "path": "packages/opencode/src/effect/instance-state.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f365203693771a8c19b6fbad2ac32a4ae40cf7f1",
+      "size": 3543,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/f365203693771a8c19b6fbad2ac32a4ae40cf7f1"
+    },
+    {
+      "path": "packages/opencode/src/effect/layer-node.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f09252c3f23aaab81cfa18ae12686f538bb74ca3",
+      "size": 1559,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/f09252c3f23aaab81cfa18ae12686f538bb74ca3"
+    },
+    {
+      "path": "packages/opencode/src/effect/promise.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2478b79e2eeb90519111ad224df972e689ba102c",
+      "size": 622,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/2478b79e2eeb90519111ad224df972e689ba102c"
+    },
+    {
+      "path": "packages/opencode/src/effect/runtime-flags.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1793651a39fd98c7cbcacd7bb055c1af85eb221",
+      "size": 767,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/e1793651a39fd98c7cbcacd7bb055c1af85eb221"
+    },
+    {
+      "path": "packages/opencode/src/effect/service-use.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b3202e552dc556f28590634be643668778462c8",
+      "size": 833,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/1b3202e552dc556f28590634be643668778462c8"
+    },
+    {
+      "path": "packages/opencode/src/env.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "499edceb88d5ea894e083825af606a8d61c3cd13",
+      "size": 6238,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/499edceb88d5ea894e083825af606a8d61c3cd13"
+    },
+    {
+      "path": "packages/opencode/src/evolve",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f63f3b260651c6f7082e422043cbc9f6df56d95e",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/f63f3b260651c6f7082e422043cbc9f6df56d95e"
+    },
+    {
+      "path": "packages/opencode/src/evolve/curriculum.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5a382cc212ab94437eb9e4444a5dc27582a31dc",
+      "size": 14752,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/d5a382cc212ab94437eb9e4444a5dc27582a31dc"
+    },
+    {
+      "path": "packages/opencode/src/evolve/evaluator.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94e7a9cae9597e4ed36603174fa851d4363bcce",
+      "size": 10074,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/b94e7a9cae9597e4ed36603174fa851d4363bcce"
+    },
+    {
+      "path": "packages/opencode/src/evolve/guard.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22618709d9791f24a2c6aee875b65ba10ed24b99",
+      "size": 5547,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/22618709d9791f24a2c6aee875b65ba10ed24b99"
+    },
+    {
+      "path": "packages/opencode/src/evolve/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beab7f863fcc4da83c6d74f427c2d5c5f2272f5a",
+      "size": 23138,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/beab7f863fcc4da83c6d74f427c2d5c5f2272f5a"
+    },
+    {
+      "path": "packages/opencode/src/evolve/miner.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61679007fb9e95fa8247646d1e768c27fc4a1352",
+      "size": 11035,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/61679007fb9e95fa8247646d1e768c27fc4a1352"
+    },
+    {
+      "path": "packages/opencode/src/evolve/policy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2a11169eaf0ed53003a22be95016819c4a36b52",
+      "size": 6206,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/e2a11169eaf0ed53003a22be95016819c4a36b52"
+    },
+    {
+      "path": "packages/opencode/src/evolve/provenance.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6062068ff44aa8cc7b983aea4d1d013509b7ba5e",
+      "size": 6470,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/6062068ff44aa8cc7b983aea4d1d013509b7ba5e"
+    },
+    {
+      "path": "packages/opencode/src/evolve/registry.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48c8897cf866f9ba6a131b9c0170779745469483",
+      "size": 6541,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/48c8897cf866f9ba6a131b9c0170779745469483"
+    },
+    {
+      "path": "packages/opencode/src/evolve/search.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca8505fbfbe6d3ee1328c7c2f0168b23e2148058",
+      "size": 19610,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ca8505fbfbe6d3ee1328c7c2f0168b23e2148058"
+    },
+    {
+      "path": "packages/opencode/src/evolve/signals.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdb080bf059f86f0facbbeef63c106737e5e385d",
+      "size": 5984,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/cdb080bf059f86f0facbbeef63c106737e5e385d"
+    },
+    {
+      "path": "packages/opencode/src/evolve/store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2367b1c1bdfe914b40d1451c3d98fc4f882c6471",
+      "size": 5409,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/2367b1c1bdfe914b40d1451c3d98fc4f882c6471"
+    },
+    {
+      "path": "packages/opencode/src/evolve/trainer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "768d89fb2a7245d45706598666167ff18616c1d2",
+      "size": 10699,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/768d89fb2a7245d45706598666167ff18616c1d2"
+    },
+    {
+      "path": "packages/opencode/src/experience",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75cbbdf4afc4e08271a6fc04d238a16acadda289",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/75cbbdf4afc4e08271a6fc04d238a16acadda289"
+    },
+    {
+      "path": "packages/opencode/src/experience/bridge.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e7d6f277f8c742ec6ac109841c2abbb945e3e1",
+      "size": 15834,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/b3e7d6f277f8c742ec6ac109841c2abbb945e3e1"
+    },
+    {
+      "path": "packages/opencode/src/experience/case.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d4b89f57d5707bf21069869a7d3461dbd3cbcf9",
+      "size": 4429,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5d4b89f57d5707bf21069869a7d3461dbd3cbcf9"
+    },
+    {
+      "path": "packages/opencode/src/experience/collector.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66b8bd71b682087104016ca4908d4dc5e6243783",
+      "size": 6173,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/66b8bd71b682087104016ca4908d4dc5e6243783"
+    },
+    {
+      "path": "packages/opencode/src/experience/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01655d7fc318d4cf451a47789293b5f22f809ad4",
+      "size": 4678,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/01655d7fc318d4cf451a47789293b5f22f809ad4"
+    },
+    {
+      "path": "packages/opencode/src/experience/distiller.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4732efd29cfe8c147a11343710f44a23fef0e5bb",
+      "size": 12990,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/4732efd29cfe8c147a11343710f44a23fef0e5bb"
+    },
+    {
+      "path": "packages/opencode/src/experience/gate.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8128196d3d401dd4fa1bdf3cede0eec444a47c60",
+      "size": 15299,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/8128196d3d401dd4fa1bdf3cede0eec444a47c60"
+    },
+    {
+      "path": "packages/opencode/src/experience/guard.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49b4d1bddd5e89e41f8e3b0751727b3be9381720",
+      "size": 13802,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/49b4d1bddd5e89e41f8e3b0751727b3be9381720"
+    },
+    {
+      "path": "packages/opencode/src/experience/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b114a364cf6aad5bbc22417c7dff1fa4f788bfa8",
+      "size": 6707,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/b114a364cf6aad5bbc22417c7dff1fa4f788bfa8"
+    },
+    {
+      "path": "packages/opencode/src/experience/injector.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31478f2db65ebc8932517a36a59b95b9eabd492c",
+      "size": 12699,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/31478f2db65ebc8932517a36a59b95b9eabd492c"
+    },
+    {
+      "path": "packages/opencode/src/experience/ledger.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61b736b4ffc3fdb3b2a2b8a0d55a18999b48b1c7",
+      "size": 8244,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/61b736b4ffc3fdb3b2a2b8a0d55a18999b48b1c7"
+    },
+    {
+      "path": "packages/opencode/src/experience/selector.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623deb1438b36f11de0dc81a305219a4cd29414b",
+      "size": 17719,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/623deb1438b36f11de0dc81a305219a4cd29414b"
+    },
+    {
+      "path": "packages/opencode/src/experience/signals.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c7b7c727e092da60705afe76ce4ee88f80683bb",
+      "size": 4604,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5c7b7c727e092da60705afe76ce4ee88f80683bb"
+    },
+    {
+      "path": "packages/opencode/src/experience/solidify.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a053289df5141734c5abe347e9756c70e51e3a",
+      "size": 13816,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/a4a053289df5141734c5abe347e9756c70e51e3a"
+    },
+    {
+      "path": "packages/opencode/src/experience/store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "301ad2ac46f43a2e879256c8fc485db9b7bbafac",
+      "size": 15598,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/301ad2ac46f43a2e879256c8fc485db9b7bbafac"
+    },
+    {
+      "path": "packages/opencode/src/experience/tactic.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beae9292bbb66e8a33fed09383d8d90441a14b6c",
+      "size": 13020,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/beae9292bbb66e8a33fed09383d8d90441a14b6c"
+    },
+    {
+      "path": "packages/opencode/src/flag",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef3792d1172e1b9f78b3d112d5564b3185f97d95",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/ef3792d1172e1b9f78b3d112d5564b3185f97d95"
+    },
+    {
+      "path": "packages/opencode/src/flag/flag.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4fc7d693a29c667b9530bca54144ec38eba76c0",
+      "size": 2188,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/c4fc7d693a29c667b9530bca54144ec38eba76c0"
+    },
+    {
+      "path": "packages/opencode/src/goal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3dd2930d1cb1cf022bca028cc23e207602627de4",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/3dd2930d1cb1cf022bca028cc23e207602627de4"
+    },
+    {
+      "path": "packages/opencode/src/goal/store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acca9cb92586bef0f8cd6a27de15c4e6dc1c565a",
+      "size": 4299,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/acca9cb92586bef0f8cd6a27de15c4e6dc1c565a"
+    },
+    {
+      "path": "packages/opencode/src/graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a03762ab69adbb3058fa39b17645616506c2ecc",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/7a03762ab69adbb3058fa39b17645616506c2ecc"
+    },
+    {
+      "path": "packages/opencode/src/graph/clean.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5053fee6e9dee25ce885f1a7e7f30158b2f06465",
+      "size": 1576,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5053fee6e9dee25ce885f1a7e7f30158b2f06465"
+    },
+    {
+      "path": "packages/opencode/src/graph/engine.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfc15188755051138229e85bfd308538d891a337",
+      "size": 17961,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/bfc15188755051138229e85bfd308538d891a337"
+    },
+    {
+      "path": "packages/opencode/src/graph/parse.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93256928319366e477303f6a7bcc150aaa271b5b",
+      "size": 12671,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/93256928319366e477303f6a7bcc150aaa271b5b"
+    },
+    {
+      "path": "packages/opencode/src/graph/planner.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4460c973ce122ff5e6abbd8bfe133319444d26df",
+      "size": 5530,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/4460c973ce122ff5e6abbd8bfe133319444d26df"
+    },
+    {
+      "path": "packages/opencode/src/graph/store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2217b1bc495fc1bef8edaf4385292d059fadc3",
+      "size": 2184,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/df2217b1bc495fc1bef8edaf4385292d059fadc3"
+    },
+    {
+      "path": "packages/opencode/src/graph/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d40b0b17137ceb972e08c9aa46e4126c6cb96368",
+      "size": 5058,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/d40b0b17137ceb972e08c9aa46e4126c6cb96368"
+    },
+    {
+      "path": "packages/opencode/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1f216e23c8664a29372e4b2b39f444914455fa6",
+      "size": 2967,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/b1f216e23c8664a29372e4b2b39f444914455fa6"
+    },
+    {
+      "path": "packages/opencode/src/main.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c82fa10035822862818fc940b3392d24d649a64",
+      "size": 90,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7c82fa10035822862818fc940b3392d24d649a64"
+    },
+    {
+      "path": "packages/opencode/src/optim",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d40b5eb8470d6e8b7627a20c9cb384a5e038be62",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/d40b5eb8470d6e8b7627a20c9cb384a5e038be62"
+    },
+    {
+      "path": "packages/opencode/src/optim/evaluate.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd31aa12c488bcb7f8478e04d2cccb19a4270f1",
+      "size": 5851,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/8cd31aa12c488bcb7f8478e04d2cccb19a4270f1"
+    },
+    {
+      "path": "packages/opencode/src/optim/runner.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83594acc697ecdfe2627b3c3eb076b49eadb980a",
+      "size": 4384,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/83594acc697ecdfe2627b3c3eb076b49eadb980a"
+    },
+    {
+      "path": "packages/opencode/src/optim/sampler.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8cc4f1254240e5f341056894120c408b7e85376",
+      "size": 13141,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/e8cc4f1254240e5f341056894120c408b7e85376"
+    },
+    {
+      "path": "packages/opencode/src/optim/semantics.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71d771136aeaa0ab6a50d202475308fd946f88db",
+      "size": 9103,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/71d771136aeaa0ab6a50d202475308fd946f88db"
+    },
+    {
+      "path": "packages/opencode/src/optim/study.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88122768d4dfe38541491e0eedf59b53a0d3a5c1",
+      "size": 9558,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/88122768d4dfe38541491e0eedf59b53a0d3a5c1"
+    },
+    {
+      "path": "packages/opencode/src/provider",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4ea5c133a684271e93a42eed45fbea666b07155",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/f4ea5c133a684271e93a42eed45fbea666b07155"
+    },
+    {
+      "path": "packages/opencode/src/provider/cc-switch.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c81ad98af3632df63446a64960a33e2c5dea38b",
+      "size": 16989,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/4c81ad98af3632df63446a64960a33e2c5dea38b"
+    },
+    {
+      "path": "packages/opencode/src/provider/error.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5230704714c66413ea965ca948584b7efa2f50a3",
+      "size": 2142,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5230704714c66413ea965ca948584b7efa2f50a3"
+    },
+    {
+      "path": "packages/opencode/src/provider/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b2c22dd8742ba07ac46c0e1bafa707b3ef64a38",
+      "size": 974,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7b2c22dd8742ba07ac46c0e1bafa707b3ef64a38"
+    },
+    {
+      "path": "packages/opencode/src/provider/model-groups.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12a6f901809bc70c539a41efb84e95e9cb1e0bf6",
+      "size": 2803,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/12a6f901809bc70c539a41efb84e95e9cb1e0bf6"
+    },
+    {
+      "path": "packages/opencode/src/provider/model-status.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0998388f04576222dce382018061815bbbf17d1",
+      "size": 541,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/d0998388f04576222dce382018061815bbbf17d1"
+    },
+    {
+      "path": "packages/opencode/src/provider/models.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc5fac056c4c7e6b1ae8580165906fe9973e86ef",
+      "size": 2306,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/bc5fac056c4c7e6b1ae8580165906fe9973e86ef"
+    },
+    {
+      "path": "packages/opencode/src/provider/provider.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75390dacf21393732c1d8429611982103da5cc1e",
+      "size": 39687,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/75390dacf21393732c1d8429611982103da5cc1e"
+    },
+    {
+      "path": "packages/opencode/src/provider/transform.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2c114f1dca0a403768f2a9be1f8a498f3be467f",
+      "size": 8808,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/c2c114f1dca0a403768f2a9be1f8a498f3be467f"
+    },
+    {
+      "path": "packages/opencode/src/refine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3bf3db70c80996d49cbf611441989d26dcc9122",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/b3bf3db70c80996d49cbf611441989d26dcc9122"
+    },
+    {
+      "path": "packages/opencode/src/refine/apply.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba7b729b58dd5e539c3a1ada26bf39c83be3292",
+      "size": 6304,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/cba7b729b58dd5e539c3a1ada26bf39c83be3292"
+    },
+    {
+      "path": "packages/opencode/src/refine/propose.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd3f2a6e7db6fada0eeb6f23786d6a452953dc4d",
+      "size": 8220,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/bd3f2a6e7db6fada0eeb6f23786d6a452953dc4d"
+    },
+    {
+      "path": "packages/opencode/src/refine/store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdbbb7147ff722cf929712493382de3cc49db14e",
+      "size": 4246,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/cdbbb7147ff722cf929712493382de3cc49db14e"
+    },
+    {
+      "path": "packages/opencode/src/schedule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "815f906c6db902484c4141be1053436103c96d6a",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/815f906c6db902484c4141be1053436103c96d6a"
+    },
+    {
+      "path": "packages/opencode/src/schedule/runner.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2ff6d3db945aa83bc33fa5657ba81e8566a8fc7",
+      "size": 3071,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/c2ff6d3db945aa83bc33fa5657ba81e8566a8fc7"
+    },
+    {
+      "path": "packages/opencode/src/schedule/store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22a56d99c76e3d4b063b89488bb1700aaeee66c9",
+      "size": 4100,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/22a56d99c76e3d4b063b89488bb1700aaeee66c9"
+    },
+    {
+      "path": "packages/opencode/src/schema",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6a2983006d84dd9d40b2d09797c6aa84762788f",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/d6a2983006d84dd9d40b2d09797c6aa84762788f"
+    },
+    {
+      "path": "packages/opencode/src/schema/schema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3d5457168712a335a90c6c2888fc68b16a46f1d",
+      "size": 1037,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/f3d5457168712a335a90c6c2888fc68b16a46f1d"
+    },
+    {
+      "path": "packages/opencode/src/serve",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af8774254e39aaf6197d0d49ced28bde624031a4",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/af8774254e39aaf6197d0d49ced28bde624031a4"
+    },
+    {
+      "path": "packages/opencode/src/serve/actions.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93d993e546fad83d811becaa6b2fe56599df74d8",
+      "size": 19339,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/93d993e546fad83d811becaa6b2fe56599df74d8"
+    },
+    {
+      "path": "packages/opencode/src/serve/dashboard.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b978fcd2910a467a1f84d48ec3b8be3728caef2b",
+      "size": 59644,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/b978fcd2910a467a1f84d48ec3b8be3728caef2b"
+    },
+    {
+      "path": "packages/opencode/src/serve/routes.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5599d4d2aafe14a32672d613e1d5ceaccbe23383",
+      "size": 14949,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5599d4d2aafe14a32672d613e1d5ceaccbe23383"
+    },
+    {
+      "path": "packages/opencode/src/serve/server.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50d0c3cd6550a06227531f8c502b8e7cd2fe9d9e",
+      "size": 9554,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/50d0c3cd6550a06227531f8c502b8e7cd2fe9d9e"
+    },
+    {
+      "path": "packages/opencode/src/serve/workbench.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c00ed31f0b64aeaeb3c5696ffc4162be74838fdf",
+      "size": 28246,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/c00ed31f0b64aeaeb3c5696ffc4162be74838fdf"
+    },
+    {
+      "path": "packages/opencode/src/session",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89b562eb88a64c3e1002c987469e94088ef8c660",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/89b562eb88a64c3e1002c987469e94088ef8c660"
+    },
+    {
+      "path": "packages/opencode/src/session/prompt.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc634f91cb89a4cbbe7e90dbfd3948959a2d7773",
+      "size": 8807,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/dc634f91cb89a4cbbe7e90dbfd3948959a2d7773"
+    },
+    {
+      "path": "packages/opencode/src/session/prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6ffa52ee464fb81567f8249c14e1ef6d25eb083",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/c6ffa52ee464fb81567f8249c14e1ef6d25eb083"
+    },
+    {
+      "path": "packages/opencode/src/session/prompt/momo.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a826dd48b06a0671f68ba7188dc56fbeb3db77f",
+      "size": 1581,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/8a826dd48b06a0671f68ba7188dc56fbeb3db77f"
+    },
+    {
+      "path": "packages/opencode/src/session/recorder.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47bc99fc709ee1d8d2de74f184d488c377ae79d9",
+      "size": 5130,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/47bc99fc709ee1d8d2de74f184d488c377ae79d9"
+    },
+    {
+      "path": "packages/opencode/src/sim",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b23a55f7b1a702e0717bab8721a5b0873aa565e",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/8b23a55f7b1a702e0717bab8721a5b0873aa565e"
+    },
+    {
+      "path": "packages/opencode/src/sim/assets.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dbd71df22fa3e06a1e7453400dbd065317a7017",
+      "size": 3671,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/1dbd71df22fa3e06a1e7453400dbd065317a7017"
+    },
+    {
+      "path": "packages/opencode/src/sim/bridge.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c17abb2c0f6758583dabcae2168bae82eb2542f9",
+      "size": 11461,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/c17abb2c0f6758583dabcae2168bae82eb2542f9"
+    },
+    {
+      "path": "packages/opencode/src/sim/eval.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c14b18fc0359a0f53de609a1ac7cfce9ea460779",
+      "size": 4239,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/c14b18fc0359a0f53de609a1ac7cfce9ea460779"
+    },
+    {
+      "path": "packages/opencode/src/sim/loop.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec97b549fa8a172075aab52c26a71600465730a1",
+      "size": 9092,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ec97b549fa8a172075aab52c26a71600465730a1"
+    },
+    {
+      "path": "packages/opencode/src/sim/runs.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d2d858c613254be1bcd376f1f33e4f29bad1bea",
+      "size": 4007,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/2d2d858c613254be1bcd376f1f33e4f29bad1bea"
+    },
+    {
+      "path": "packages/opencode/src/subagent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daf03b6d3c60cea6539815646cf5257bad124ae2",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/daf03b6d3c60cea6539815646cf5257bad124ae2"
+    },
+    {
+      "path": "packages/opencode/src/subagent/orchestrate.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42e7c19c9e17d025859eb596c562e8147e49c153",
+      "size": 6796,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/42e7c19c9e17d025859eb596c562e8147e49c153"
+    },
+    {
+      "path": "packages/opencode/src/subagent/spawn.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b510bc5f436042aabab1b160a79dc6bc9e6c61",
+      "size": 7337,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/93b510bc5f436042aabab1b160a79dc6bc9e6c61"
+    },
+    {
+      "path": "packages/opencode/src/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "152ec62d12bddccb60c686511f6c127f75fc8181",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/152ec62d12bddccb60c686511f6c127f75fc8181"
+    },
+    {
+      "path": "packages/opencode/src/test/bridge.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a891ac9a968178a234ad77a75bb05afcd8d963da",
+      "size": 6616,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/a891ac9a968178a234ad77a75bb05afcd8d963da"
+    },
+    {
+      "path": "packages/opencode/src/test/cc-switch.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f48cd9c60c3ff6d3456ad9c3fd8560553ecea27",
+      "size": 13260,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/4f48cd9c60c3ff6d3456ad9c3fd8560553ecea27"
+    },
+    {
+      "path": "packages/opencode/src/test/cli.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1dab78725285932a2b5a9067a3204f2585e022f",
+      "size": 2172,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/b1dab78725285932a2b5a9067a3204f2585e022f"
+    },
+    {
+      "path": "packages/opencode/src/test/curriculum.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aada2cf83525a2d8c78538255f449c3399951cc6",
+      "size": 5879,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/aada2cf83525a2d8c78538255f449c3399951cc6"
+    },
+    {
+      "path": "packages/opencode/src/test/distiller.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6bf2ff5d3b3a9c969a7bc6003245de5d1e37a23",
+      "size": 4247,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/a6bf2ff5d3b3a9c969a7bc6003245de5d1e37a23"
+    },
+    {
+      "path": "packages/opencode/src/test/evaluator.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2e3e810fb5b632e4a52efe0a7817efe45f81de",
+      "size": 3938,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/df2e3e810fb5b632e4a52efe0a7817efe45f81de"
+    },
+    {
+      "path": "packages/opencode/src/test/goal-schedule.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "081e71d1b0742332ffbfc0d42f5f48612bdaad47",
+      "size": 4100,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/081e71d1b0742332ffbfc0d42f5f48612bdaad47"
+    },
+    {
+      "path": "packages/opencode/src/test/graph.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ea82b729a2b7accc339676f21e2649fd8180fa7",
+      "size": 15621,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/8ea82b729a2b7accc339676f21e2649fd8180fa7"
+    },
+    {
+      "path": "packages/opencode/src/test/guard.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a67eeaaf1431672e040080f825cd882611e838f",
+      "size": 2335,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7a67eeaaf1431672e040080f825cd882611e838f"
+    },
+    {
+      "path": "packages/opencode/src/test/injector.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e87f556baf5228815568f43ef45d6f382406953",
+      "size": 7713,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/8e87f556baf5228815568f43ef45d6f382406953"
+    },
+    {
+      "path": "packages/opencode/src/test/ledger.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dc281044d52516dc9a226ca18662ce488f9bf50",
+      "size": 5911,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7dc281044d52516dc9a226ca18662ce488f9bf50"
+    },
+    {
+      "path": "packages/opencode/src/test/miner.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330acbf556144ac42cdc9d77ff87d82e1e50f87e",
+      "size": 5983,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/330acbf556144ac42cdc9d77ff87d82e1e50f87e"
+    },
+    {
+      "path": "packages/opencode/src/test/optim.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647bab33b804fd984a8e4f035458503b0022170a",
+      "size": 11908,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/647bab33b804fd984a8e4f035458503b0022170a"
+    },
+    {
+      "path": "packages/opencode/src/test/policy.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29aba3a2f7640b6b959523656cac41c4c6529647",
+      "size": 4612,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/29aba3a2f7640b6b959523656cac41c4c6529647"
+    },
+    {
+      "path": "packages/opencode/src/test/provider.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8bdbc036c4d4914869ec46c552892d86efc6896",
+      "size": 8462,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/f8bdbc036c4d4914869ec46c552892d86efc6896"
+    },
+    {
+      "path": "packages/opencode/src/test/recorder.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffa9984be9c3c57f8869fadc0039854e22f28234",
+      "size": 3623,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ffa9984be9c3c57f8869fadc0039854e22f28234"
+    },
+    {
+      "path": "packages/opencode/src/test/refine.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1307de92008a63424d740484d81f9ca0da1824",
+      "size": 4532,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7e1307de92008a63424d740484d81f9ca0da1824"
+    },
+    {
+      "path": "packages/opencode/src/test/registry.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae83f37baffdff983325098cf1b15e81e5542c09",
+      "size": 4558,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/ae83f37baffdff983325098cf1b15e81e5542c09"
+    },
+    {
+      "path": "packages/opencode/src/test/search.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84d6374e93a4bd89c57374ca0e2d6bca8f89056a",
+      "size": 8814,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/84d6374e93a4bd89c57374ca0e2d6bca8f89056a"
+    },
+    {
+      "path": "packages/opencode/src/test/selector.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31273e77bc6ee6964352041af0ab511138598fbd",
+      "size": 8945,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/31273e77bc6ee6964352041af0ab511138598fbd"
+    },
+    {
+      "path": "packages/opencode/src/test/serve.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f2d1fe8e2ee0b29adee9efa84589f477e36a51",
+      "size": 17566,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/46f2d1fe8e2ee0b29adee9efa84589f477e36a51"
+    },
+    {
+      "path": "packages/opencode/src/test/signals.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b46edbd7237947585efe4b961b40d76b795f16cd",
+      "size": 10554,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/b46edbd7237947585efe4b961b40d76b795f16cd"
+    },
+    {
+      "path": "packages/opencode/src/test/sim-bridge.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63b2873f93159e417764a7e10b87f6315ff971c0",
+      "size": 4997,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/63b2873f93159e417764a7e10b87f6315ff971c0"
+    },
+    {
+      "path": "packages/opencode/src/test/sim-eval.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6afd8ee2d39190465c4bcd067cb5c7f7215a54ac",
+      "size": 2147,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/6afd8ee2d39190465c4bcd067cb5c7f7215a54ac"
+    },
+    {
+      "path": "packages/opencode/src/test/sim-loop-parse.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3021aee4e825046d62996440c04d64b7ebec2f97",
+      "size": 1415,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/3021aee4e825046d62996440c04d64b7ebec2f97"
+    },
+    {
+      "path": "packages/opencode/src/test/store.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9756ec371e84a47f47c6be2e4cc6a672f547055",
+      "size": 5542,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/a9756ec371e84a47f47c6be2e4cc6a672f547055"
+    },
+    {
+      "path": "packages/opencode/src/test/subagent.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ca19f7ab99e5a0261fbf049361dcb9f47eabeb4",
+      "size": 1561,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/6ca19f7ab99e5a0261fbf049361dcb9f47eabeb4"
+    },
+    {
+      "path": "packages/opencode/src/test/tactic.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9851b970c7cae37abf538f36cca2baac61b45ade",
+      "size": 7406,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/9851b970c7cae37abf538f36cca2baac61b45ade"
+    },
+    {
+      "path": "packages/opencode/src/test/trainer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8711669a5c90787576c7e365b8a1ba687e313a72",
+      "size": 5412,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/8711669a5c90787576c7e365b8a1ba687e313a72"
+    },
+    {
+      "path": "packages/opencode/src/test/voice.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cecb16a533d8b3dc9eb6d9b1a2554be55967ced",
+      "size": 3971,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7cecb16a533d8b3dc9eb6d9b1a2554be55967ced"
+    },
+    {
+      "path": "packages/opencode/src/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54f8d515cb8f8061c0e14ee7681ed53a318e39e0",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/54f8d515cb8f8061c0e14ee7681ed53a318e39e0"
+    },
+    {
+      "path": "packages/opencode/src/util/iife.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71a4f2ff9c418e5d6838fddb0f8d790a9cad9b3d",
+      "size": 320,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/71a4f2ff9c418e5d6838fddb0f8d790a9cad9b3d"
+    },
+    {
+      "path": "packages/opencode/src/util/record.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4827a6c1db291db386ddb83f72b6d5def93a2b27",
+      "size": 439,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/4827a6c1db291db386ddb83f72b6d5def93a2b27"
+    },
+    {
+      "path": "packages/opencode/src/voice",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "285aee9f3fa7cf7845d99b960455043a84e4e026",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/285aee9f3fa7cf7845d99b960455043a84e4e026"
+    },
+    {
+      "path": "packages/opencode/src/voice/record.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2932598568921780b3b76288177242b876510e36",
+      "size": 2668,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/2932598568921780b3b76288177242b876510e36"
+    },
+    {
+      "path": "packages/opencode/src/voice/stt.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6325a4ab2e1dd0c59d0b752b98454c390fbcad7e",
+      "size": 3069,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/6325a4ab2e1dd0c59d0b752b98454c390fbcad7e"
+    },
+    {
+      "path": "packages/opencode/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "febdfedfaafaadaec172d7985f2fc953e16a01ce",
+      "size": 751,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/febdfedfaafaadaec172d7985f2fc953e16a01ce"
+    },
+    {
+      "path": "packages/opencode/tsup.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc16761b53fb75d7ff1b663fc2b8705189c0d48c",
+      "size": 752,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/dc16761b53fb75d7ff1b663fc2b8705189c0d48c"
+    },
+    {
+      "path": "pic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4d17be1ba1b5674e59ca70fea07c2ab09df3df1",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/c4d17be1ba1b5674e59ca70fea07c2ab09df3df1"
+    },
+    {
+      "path": "pic/AG.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faf753164d2d3e3215f1b4d449a36fde2c64bdff",
+      "size": 1692101,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/faf753164d2d3e3215f1b4d449a36fde2c64bdff"
+    },
+    {
+      "path": "pic/SS.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d25d810c4f92e58c93c7942123a6d62364c9a5b",
+      "size": 1655790,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/5d25d810c4f92e58c93c7942123a6d62364c9a5b"
+    },
+    {
+      "path": "script",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64bad53f1ea5236c3c2b14e56dcce6cb452bba30",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/64bad53f1ea5236c3c2b14e56dcce6cb452bba30"
+    },
+    {
+      "path": "script/release.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6845b0b5b89e6e999ebf3ef473d6e2ea623f6bb",
+      "size": 2615,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/d6845b0b5b89e6e999ebf3ef473d6e2ea623f6bb"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70a5690f6caeba25f770246b61b23bc3f453503f",
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/trees/70a5690f6caeba25f770246b61b23bc3f453503f"
+    },
+    {
+      "path": "scripts/check-rebrand.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d1704b231643a8dcee6e3df3ce225d4b601da26",
+      "size": 2062,
+      "url": "https://api.github.com/repos/momozi1996/momo-code/git/blobs/7d1704b231643a8dcee6e3df3ce225d4b601da26"
+    }
+  ],
+  "truncated": false
+}

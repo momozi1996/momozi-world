@@ -1,0 +1,13 @@
+{
+  "url": "http://localhost:5179/",
+  "checkedAt": "2026-09-11T10:12:33.757Z",
+  "errors": [],
+  "failures": [],
+  "httpErrors": [],
+  "consoleErrors": [],
+  "checks": [
+    "desktop: all tabs, six career stops, five projects, source links, keyboard tabs, clipboard success + denied fallback",
+    "world: contact opens/closes; map and driving preserved; works shortcut and 3D project content preserved",
+    "mobile: 390px + 320px layouts, all tabs, modal viewport bounds, no horizontal overflow"
+  ]
+}

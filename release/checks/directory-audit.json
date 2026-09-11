@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-09-11T10:34:25.861896+00:00",
+  "approvedApplicationInputs": 1146,
+  "changedApprovedApplicationFiles": [],
+  "sensitiveFilenameMatches": [],
+  "privateKeyOrTokenPatternMatches": [],
+  "emptyFiles": [],
+  "symlinksOutsideDependencies": [],
+  "scope": "Local filename and limited text-pattern scan; not a full security audit. No external deployment or repository freshness claim."
+}

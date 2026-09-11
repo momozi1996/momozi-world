@@ -1,0 +1,14 @@
+.DS_Store
+node_modules
+dist
+.vercel
+.VSCodeCounter
+.env*
+!.env.example
+.autosave
+.wav
+!static/sounds/music/*.wav
+node_modules/
+dist/
+data/world.json
+data/world.json.tmp

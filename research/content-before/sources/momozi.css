@@ -1,0 +1,52 @@
+:root { --momo-pink:#ee87bc; --momo-lilac:#aa83dc; --momo-paper:#ffdaea; --momo-ink:#382249; }
+.momo-brand { position:fixed; z-index:10; top:28px; left:34px; display:flex; gap:13px; align-items:center; color:#fff1fc; pointer-events:none; text-shadow:0 2px 20px #38224955; }
+.momo-brand img { width:45px; height:45px; border-radius:50%; border:2px solid #ffe7f6a0; }
+.momo-brand strong { display:block; font-family:'Pally-Bold',Nunito,sans-serif; font-size:26px; letter-spacing:-1px; line-height:1.1; }
+.momo-brand strong span { font-family:Nunito,sans-serif; font-size:13px; letter-spacing:0; margin-left:8px; font-weight:400; opacity:.8; }
+.momo-brand small { font:700 8px Nunito,sans-serif; letter-spacing:2.1px; opacity:.65; }
+.momo-welcome { position:fixed; top:23%; left:5.8%; z-index:10; color:#fff1fa; pointer-events:none; transition:opacity .7s, transform .7s; }
+.momo-welcome .eyebrow { font:700 9px Nunito,sans-serif; letter-spacing:2px; color:#dfbde9; margin-bottom:24px; }
+.momo-welcome h1 { font:700 clamp(30px,3vw,50px)/1.5 'Pally-Bold','PingFang SC',sans-serif; letter-spacing:1px; margin:0 0 24px; }
+.momo-welcome h1 span { color:#f4acd5; display:inline-block; font-size:45px; margin-left:13px; transform:rotate(12deg); }
+.momo-welcome>p:last-child { font:400 13px/2.1 Nunito,'PingFang SC',sans-serif; color:#e1cae7; }
+.momo-start { position:fixed; left:5.8%; bottom:12%; z-index:20; display:flex; flex-direction:column; gap:15px; transition:opacity .5s,transform .5s; }
+.momo-start button { background:#f0b1d7; border:1px solid #ffe2f5; border-radius:28px; color:#48274e; padding:15px 26px; min-width:248px; text-align:left; font:800 15px Nunito,'PingFang SC',sans-serif; box-shadow:0 6px 35px #b855ad25; cursor:pointer; transition:background .2s,transform .2s; }
+.momo-start button span { float:right; margin-left:30px; }
+.momo-start button:disabled { background:#765a8355; color:#e7cbe9; border-color:#baa0c444; cursor:wait; }
+.momo-start button:not(:disabled):hover { background:#ffe0f1; transform:translateY(-3px); }
+.momo-start small { font:400 10px Nunito,'PingFang SC',sans-serif; letter-spacing:.8px; color:#d4bfdc; }
+.momo-playing .momo-start,.momo-playing .momo-welcome { opacity:0; transform:translateY(15px); pointer-events:none; }
+.momo-playing .momo-brand { color:#4b2b61; text-shadow:0 1px 15px #ffffff90; }
+.momo-dock { position:fixed; bottom:28px; left:50%; transform:translate(-50%,20px); z-index:9; display:flex; align-items:center; padding:7px; gap:2px; border:1px solid #fff0fab0; background:#fff1f4e5; border-radius:30px; box-shadow:0 8px 35px #62416c25; backdrop-filter:blur(16px); opacity:0; pointer-events:none; transition:opacity .6s,transform .6s; white-space:nowrap; }
+.momo-dock button { color:#664476; font:700 12px Nunito,'PingFang SC',sans-serif; padding:10px 15px; border-radius:22px; transition:background .2s; }
+.momo-dock button:hover,.momo-dock button:focus-visible { background:#e9d3ed; outline:none; }
+kbd { font:600 10px Nunito,sans-serif; border:1px solid currentColor; border-radius:4px; padding:1px 4px; margin-left:4px; opacity:.6; }
+.momo-playing .momo-dock { opacity:1; transform:translate(-50%,0); pointer-events:auto; }
+.momo-drive-hint { position:fixed; left:30px; bottom:34px; z-index:8; display:flex; flex-direction:column; gap:7px; font:500 10px Nunito,'PingFang SC',sans-serif; color:#5b3e6b; opacity:0; pointer-events:none; }
+.momo-drive-hint kbd:first-child { margin-left:0; }
+.momo-playing .momo-drive-hint { opacity:.85; }
+.input-filter-menu .momo-dock,.input-filter-modal .momo-dock,.input-filter-cinematic .momo-dock { opacity:0; pointer-events:none; }
+.input-filter-menu .momo-brand,.input-filter-modal .momo-brand,.input-filter-cinematic .momo-brand,.input-filter-menu .momo-drive-hint,.input-filter-modal .momo-drive-hint { opacity:0; }
+.menu .home-content .title { font-family:'Pally-Bold',Nunito,sans-serif; font-size:1.65rem; margin-bottom:.7em; }
+.menu .home-content .text { font-size:.85rem; line-height:1.85; }
+.menu .home-preview .background { object-fit:cover; }
+.menu .preview .background:not([src*="momozi"]),.modals .preview .background { filter:hue-rotate(298deg) saturate(.75); }
+.menu .navigation .item { border-radius:12px 0 0 12px; overflow:hidden; }
+.button:not(.is-disabled):hover { background:#edb7e426; }
+button:focus-visible,a:focus-visible { outline:2px solid #f4b5de; outline-offset:5px; }
+#momo-error { position:fixed; z-index:10000; bottom:20px; left:50%; transform:translateX(-50%); width:min(90%,600px); background:#513157; padding:20px; border-radius:18px; border:1px solid #e5a6d8; color:white; font:14px/1.8 Nunito,sans-serif; }
+#momo-error a { color:#ffd2ee; }
+@media(max-width:1000px) { .momo-drive-hint { bottom:100px; } .momo-welcome { top:21%; } .momo-welcome>p:last-child{max-width:260px;} }
+@media(max-width:600px) { .momo-brand{left:20px;top:20px;gap:9px;} .momo-brand strong{font-size:24px;} .momo-brand strong span{display:none;} .momo-brand small{font-size:7px;letter-spacing:1.4px;} .momo-brand img{width:38px;height:38px;} .momo-welcome{top:18%;left:7%;} .momo-welcome h1{font-size:27px;line-height:1.5;margin-bottom:12px;} .momo-welcome .eyebrow{font-size:7px;letter-spacing:1.2px;margin-bottom:13px;} .momo-welcome>p:last-child{font-size:11px;} .momo-start{left:7%;bottom:10%;} .momo-start small{font-size:8px;} .momo-dock{bottom:max(18px,env(safe-area-inset-bottom));gap:0;width:max-content;max-width:96vw;padding:5px;} .momo-dock button{font-size:11px;padding:9px 10px;} .momo-dock kbd{display:none;} .momo-drive-hint{display:none;} .momo-playing .momo-brand small{display:none;} .menu .home-content .text{font-size:.82rem;line-height:1.65;} }
+@media(prefers-reduced-motion:reduce) { .momo-start,.momo-welcome,.momo-dock { transition:none; } }
+
+.input-filter-cinematic .momo-drive-hint { opacity:0; }
+@media(max-width:600px) {
+  .momo-welcome { top:auto; bottom:22%; left:7%; right:7%; }
+  .momo-welcome .eyebrow { display:none; }
+  .momo-welcome h1 { font-size:20px; line-height:1.5; letter-spacing:0; margin-bottom:10px; }
+  .momo-welcome h1 br { display:none; }
+  .momo-welcome h1 span { font-size:26px; margin-left:8px; }
+  .momo-welcome>p:last-child { max-width:none; font-size:10px; line-height:1.8; }
+  .momo-start { bottom:10%; }
+}

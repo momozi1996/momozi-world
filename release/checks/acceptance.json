@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "version": "1.0.0",
+  "checkedAt": "2026-09-11T10:41:13.929235+00:00",
+  "environment": {
+    "node": "v25.8.1",
+    "npm": "11.11.0"
+  },
+  "install": "npm ci (locked dependency versions; project legacy-peer-deps compatibility setting)",
+  "build": "npm run build:online",
+  "tests": {
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0
+  },
+  "staticAssetsMatched": 986,
+  "approvedInputsUnchanged": 1146,
+  "browserReports": [
+    "release/checks/colors/report.json",
+    "release/checks/content/report.json"
+  ],
+  "screenshots": 30,
+  "liveService": {
+    "url": "http://localhost:5179/",
+    "health": {
+      "ok": true,
+      "world": "MoMoZi",
+      "clients": 0
+    },
+    "indexMatchesDisk": true,
+    "indexSha256": "01e8cf2932c8b302139f99d13da73b30fc39d706fa40192aad0c6152957fc7fe"
+  },
+  "scope": "Local sealed release; no dependency upgrade, public deployment or comprehensive security audit."
+}

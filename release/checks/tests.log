@@ -1,0 +1,26 @@
+
+> momozi-cotton-candy-world@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ public profile preserves the requested identity, anonymity and six-step career order (2.991917ms)
+✔ selected works cover all requested categories, repositories and website (0.671792ms)
+✔ social accounts use copy actions rather than invented profile URLs (0.409ms)
+✔ about tabs have unique accessible relationships and a single initial selection (0.272917ms)
+✔ 3D project attributes describe the work without stale live-looking star counts (0.242667ms)
+✔ self-hosted server broadcasts, persists, and blocks traversal (1470.55625ms)
+✔ all tree species use green / yellow-green foliage and warm brown bark (1.217416ms)
+✔ water remains blue across shallow and deep regions, lamps are warm HDR emitters (0.114958ms)
+✔ natural UV palette retains 24 source slots and distinct wood / cream / metal tones (0.234208ms)
+✔ whispers persist and one guest replaces their own whisper (2.179292ms)
+✔ reject invalid coordinates and bound whisper pool (1.224417ms)
+✔ race leaderboard sorts, retains daily scores, sanitizes tags (0.164417ms)
+✔ cookie counter persists and rejects non-finite amounts (0.101083ms)
+✔ three altar events activate a tornado and it ends (0.079708ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1642.201375
