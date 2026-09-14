@@ -49,6 +49,7 @@ import { Options } from './Options.js'
 import gsap from 'gsap'
 import { Map } from './Map.js'
 import { prepareMomoWorld, finishMomoWorld } from './MomoBrand.js'
+import { MomoDiscoveries } from './MomoDiscoveries.js'
 import { prepareMomoNature } from './MomoNature.js'
 
 export class Game
@@ -202,6 +203,7 @@ export class Game
         // this.monitoring = new Monitoring()
         this.world.step(1)
         finishMomoWorld(this)
+        this.discoveries = new MomoDiscoveries(this)
         window.__ready = true
         this.overlay = new Overlay()
 

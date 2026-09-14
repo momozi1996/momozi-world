@@ -1,0 +1,52 @@
+{
+  "verifiedAt": "2026-09-14",
+  "providedByUser": [
+    "https://momozi.vip/",
+    "https://github.com/momozi1996/awesome-ai-knowledge/tree/main/docs"
+  ],
+  "knowledgeRevision": "ebae457a826130ce8a26f94d5edd0c1902921ec7",
+  "articles": [
+    {
+      "originalTitle": "我做了全球首个会「自进化」「自微调」的 Code Agent ：momo Code（V1.0.0）🤔",
+      "publishedAt": "2026-06-27",
+      "originalUrl": "https://mp.weixin.qq.com/s/MWW8eczRSylEAoRELntS7Q",
+      "readFrom": "https://momozi.vip/data/blog/article-2.md",
+      "sourceSha256": "52b65cc7f217168837876dd353d30bc3c6610fa356b0b90d6355193bddfa08ee"
+    },
+    {
+      "originalTitle": "集结31位顶级导演｜一个开源“多agent导演智囊团”的诞生 ：张艺谋、周星驰、王家卫、诺兰、卡梅隆、宫崎骏、朴赞郁...    (附GitHub)",
+      "publishedAt": "2026-05-11",
+      "originalUrl": "https://mp.weixin.qq.com/s/0AE-09BgvquuBPx8K7uXrA",
+      "readFrom": "https://momozi.vip/data/blog/article-6.md",
+      "sourceSha256": "7a1ff80d25858c8f724588149be71089455b575656cfc246f25d1cde5fac2733"
+    },
+    {
+      "originalTitle": "我蒸馏了永乐大典.skill， AI让中华文明瑰宝永生 （附带原著） | AI 也可以让文明永存",
+      "publishedAt": "2026-04-22",
+      "originalUrl": "https://mp.weixin.qq.com/s/JrqIkaCTlUYDx1nh42sHvQ",
+      "readFrom": "https://momozi.vip/data/blog/article-7.md",
+      "sourceSha256": "41b276dee951cb2a45eb1460e00b53d02d9aa58e939925bc787936349fddc50a"
+    }
+  ],
+  "documents": [
+    {
+      "path": "docs/03-AI Agent智能体/00-导读和学习流程图.md",
+      "sourceSha256": "f62d84a44043df660dab2f231ca08d46fd72365421cfd24676efc6427e4c8aa4"
+    },
+    {
+      "path": "docs/0-近期最新知识点/Harness_Engineering_驾驭工程.md",
+      "sourceSha256": "c077e941b68f0181c9d11c880a165988c318ae862557514e612820f20b5a6709"
+    },
+    {
+      "path": "docs/03-AI Agent智能体/07-模型评估.md",
+      "sourceSha256": "7f7922643ed685c5b3ca7c8b5d10cac8031e5a7b8b78f26a79d9808caee9d058"
+    }
+  ],
+  "codeScreenshot": {
+    "sourceUrl": "https://mmbiz.qpic.cn/mmbiz_png/iazCrKuBFsicANx0OSm5ianI4J8N9nIPSyDggvWHjJkqibJGTge7P7ZfYkU9iadXwAv72vmln6gic3xjteqOUWW7FlHsLqR7wKmhj6p9oxoL1ibc4Q/640?wx_fmt=png&from=appmsg",
+    "sourceSha256": "70adeebf7896d34eb51b064ec957202f289a7409a3dacc0588a12233172226fb",
+    "publishedPath": "site/static/momozi/discoveries/code-evolve.webp",
+    "transform": "resize <=1200px, webp quality 86, no content edits",
+    "interpretation": "Original published demonstration; visible Tactics/Promoted=0; not efficacy evidence."
+  }
+}

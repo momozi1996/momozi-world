@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "checkedAt": "2026-09-14T20:37:17.468950+08:00",
+  "baseline": "fa9104b",
+  "branch": "feat/v2-small-discoveries",
+  "unitTests": {
+    "passed": 18,
+    "failed": 0,
+    "log": "unit-tests.txt"
+  },
+  "browserReports": [
+    "browser-report.json",
+    "production/browser-report.json"
+  ],
+  "colorReport": "colors/report.json",
+  "staticAssetsMatchingDist": 990,
+  "localServer": {
+    "url": "http://localhost:5179/",
+    "health": {
+      "ok": true,
+      "world": "MoMoZi",
+      "clients": 0
+    },
+    "indexMatchesDist": true,
+    "indexSha256": "82a4372f92b4fb0e47c028a68953f6fdc614ad489136f4ca8c507391d67109c6"
+  },
+  "v1ReleaseFilesUnchanged": true,
+  "publicDeployment": false,
+  "freezeReport": "freeze.json"
+}

@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:5192/",
+  "checks": [
+    "six source-backed readings: metadata, source links, editorial attribution, relevant corner/project links, author screenshot and Priors/LoRA distinction",
+    "desktop: optional unordered route, three stamps, scripted choices, real PNG download, all five 3D entries/check-ins, no auto-popups, resume after reload, scoped replay preserves legacy achievements, menu/modal input isolation and Escape/driving recovery",
+    "postcard image failure: save disabled and manual screenshot fallback shown",
+    "390px touch/reduced-motion: first project CTA above fold, no viewport overflow, passport, roundtable, postcard, focus loop, map preserved",
+    "320px touch/reduced-motion: first project CTA above fold, no viewport overflow, passport, roundtable, postcard, focus loop, map preserved"
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "consoleErrors": [],
+  "expectedFailureConsole": [
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "passed": true
+}

@@ -4,7 +4,8 @@
 
 ## 判断新旧
 
-- **最终封板截图 / 测试报告**：`../release/checks/`。以这个目录及 `../RELEASE.md` 为准。
+- **当前 2.0 冻结版**：`../FREEZE.md`、`../release/v2/RELEASE.md` 与 `../release/v2/checks/`。
+- **历史 1.0 封板截图 / 测试报告**：`../release/checks/` 和 `../RELEASE.md`，保留追溯，不代表当前应用版本。
 - `color-check/`、`content-check/` 与根目录 `.png` / `.json`：不同阶段的旧检查结果，保留作追溯；有些截图早于最终内容或配色。
 - `color-update-notes.md`、`content-update-notes.md`：对应迭代的说明；记录当时测试数，并非最新总验收结论。
 - `content-before/`、`color-before/`：变更前备份，不能覆盖当前 `../site/sources/`。
@@ -17,7 +18,7 @@
 
 ## 浏览器复验脚本
 
-`color-test.cjs` 与 `content-test.cjs` 是本次重新使用的浏览器检查脚本；默认输出位置仍是旧检查目录。请设置 `CHECK_OUTPUT` 指向项目之外的新目录，避免覆盖冻结证据。
+`color-test.cjs` 与 `content-test.cjs` 是历史浏览器检查脚本（2.0 复用了色彩回归；新增互动验收在 `../site/scripts/test-island-v2.cjs`）；默认输出位置仍是旧检查目录。请设置 `CHECK_OUTPUT` 指向项目之外的新目录，避免覆盖冻结证据。
 
 需要额外的 Playwright Node 模块与本机 Chrome；不属于网站生产依赖。通过 `PLAYWRIGHT_MODULE` 指定已安装模块目录，或使 `require('playwright')` 可解析。
 

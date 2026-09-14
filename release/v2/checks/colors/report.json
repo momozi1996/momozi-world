@@ -1,0 +1,147 @@
+{
+  "url": "http://127.0.0.1:5193/",
+  "checkedAt": "2026-09-14T12:35:37.485Z",
+  "errors": [],
+  "consoleErrors": [],
+  "failed": [],
+  "httpErrors": [],
+  "checks": [
+    "high + low quality, 390px mobile, day/night emissive pools, map and driving",
+    "day and night scenes captured; original profile remains available"
+  ],
+  "materials": {
+    "trunks": [
+      {
+        "type": "birchTrees",
+        "material": "momoTreeBark"
+      },
+      {
+        "type": "oakTrees",
+        "material": "momoTreeBark"
+      },
+      {
+        "type": "cherryTrees",
+        "material": "momoTreeBark"
+      }
+    ],
+    "trees": [
+      {
+        "type": "birchTrees",
+        "colors": [
+          "#7c954f",
+          "#becf7c"
+        ]
+      },
+      {
+        "type": "oakTrees",
+        "colors": [
+          "#4c815c",
+          "#91bc79"
+        ]
+      },
+      {
+        "type": "cherryTrees",
+        "colors": [
+          "#628c58",
+          "#aac67e"
+        ]
+      }
+    ],
+    "bench": [
+      {
+        "name": "bench",
+        "material": "momoNaturalProps"
+      }
+    ],
+    "pole": [
+      {
+        "name": "body",
+        "material": "momoNaturalProps",
+        "box": {
+          "isBox3": true,
+          "min": {
+            "x": -0.369690865278244,
+            "y": -1.7818751335144043,
+            "z": -0.369690865278244
+          },
+          "max": {
+            "x": 0.3710101544857025,
+            "y": 1.7818751335144043,
+            "z": 0.3710101544857025
+          }
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "name": "glass",
+        "material": "",
+        "box": {
+          "isBox3": true,
+          "min": {
+            "x": -0.28391191363334656,
+            "y": -0.3004489541053772,
+            "z": -0.28391191363334656
+          },
+          "max": {
+            "x": 0.28399553894996643,
+            "y": 0.3004489541053772,
+            "z": 0.28399553894996643
+          }
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "poles": [
+      {
+        "p": {
+          "x": 48.28611755371094,
+          "y": 1.7487435340881348,
+          "z": 28.056949615478516
+        }
+      },
+      {
+        "p": {
+          "x": 39.374019622802734,
+          "y": 1.7487437725067139,
+          "z": 40.5766716003418
+        }
+      },
+      {
+        "p": {
+          "x": 65.5804443359375,
+          "y": 1.7487435340881348,
+          "z": 21.4329891204834
+        }
+      }
+    ],
+    "lampVisible": true,
+    "water": [
+      {
+        "stop": 0.1,
+        "value": "#e4b4db"
+      },
+      {
+        "stop": 0.3,
+        "value": "#65b4d1"
+      },
+      {
+        "stop": 0.9,
+        "value": "#245f99"
+      }
+    ],
+    "renderer": true
+  },
+  "lowQuality": {
+    "level": 1,
+    "pool": 0.48,
+    "lamps": true
+  }
+}

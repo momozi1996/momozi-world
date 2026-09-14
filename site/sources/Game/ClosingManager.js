@@ -91,6 +91,19 @@ export class ClosingManager
         {
             this.game.inputs.filters.clear()
 
+            // A content modal can replace a menu (or vice versa) in the same event.
+            // The remaining visible surface owns input; never briefly enable driving.
+            if(this.game.modals.state === Modals.OPEN || this.game.modals.state === Modals.OPENING)
+            {
+                this.game.inputs.filters.add('modal')
+                return
+            }
+            if(this.game.menu.current?.isOpen && this.game.menu.state !== Menu.CLOSING)
+            {
+                this.game.inputs.filters.add('menu')
+                return
+            }
+
             if(
                 this.game.world.areas?.circuit?.state === CircuitArea.STATE_RUNNING ||
                 this.game.world.areas?.circuit?.state === CircuitArea.STATE_STARTING ||

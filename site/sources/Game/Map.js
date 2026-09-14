@@ -41,18 +41,18 @@ export class Map
     {
         this.locations = {}
         this.locations.items = [
-            { name: 'Achievements', respawnName: 'achievements', offset: { x: 0, y: -0.01 } },
-            { name: 'Altar', respawnName: 'altar', offset: { x: 0, y: -0.05 } },
-            { name: 'Behind<br /> the scene', respawnName: 'behindTheScene', offset: { x: 0.01, y: 0 } },
-            { name: 'Bowling', respawnName: 'bowling', offset: { x: -0.08, y: 0.03 } },
-            { name: 'AI Journey', respawnName: 'career', offset: { x: 0, y: -0.06 } },
-            { name: 'Circuit', respawnName: 'circuit', offset: { x: -0.08, y: -0.05 } },
-            { name: 'Cookie', respawnName: 'cookie', offset: { x: -0.02, y: -0.01 } },
-            { name: 'Agent Lab', respawnName: 'lab', offset: { x: -0.03, y: 0 } },
-            { name: 'MoMoZi', respawnName: 'landing', offset: { x: 0.02, y: 0 } },
-            { name: 'MOMO Projects', respawnName: 'projects', offset: { x: 0, y: -0.02 } },
-            { name: 'Social', respawnName: 'social', offset: { x: -0.01, y: -0.04 } },
-            { name: 'Time Machine', respawnName: 'timeMachine', offset: { x: 0, y: 0 } },
+            { name: '成就小屋', respawnName: 'achievements', offset: { x: 0, y: -0.01 } },
+            { name: '祭坛', respawnName: 'altar', offset: { x: 0, y: -0.05 } },
+            { name: '幕后角落', respawnName: 'behindTheScene', offset: { x: 0.01, y: 0 } },
+            { name: '保龄球', respawnName: 'bowling', offset: { x: -0.08, y: 0.03 } },
+            { name: '来时路', respawnName: 'career', offset: { x: 0, y: -0.06 } },
+            { name: '赛道', respawnName: 'circuit', offset: { x: -0.08, y: -0.05 } },
+            { name: '饼干屋', respawnName: 'cookie', offset: { x: -0.02, y: -0.01 } },
+            { name: 'AI 实验室', respawnName: 'lab', offset: { x: -0.03, y: 0 } },
+            { name: '出生点', respawnName: 'landing', offset: { x: 0.02, y: 0 } },
+            { name: '作品工坊', respawnName: 'projects', offset: { x: 0, y: -0.02 } },
+            { name: '兔子广场', respawnName: 'social', offset: { x: -0.01, y: -0.04 } },
+            { name: '时光机', respawnName: 'timeMachine', offset: { x: 0, y: 0 } },
         ]
 
         for(const item of this.locations.items)

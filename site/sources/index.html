@@ -41,6 +41,7 @@
     
 
 <link rel="stylesheet" href="./momozi.css">
+<link rel="stylesheet" href="./discoveries.css">
 <link rel="icon" type="image/png" href="./momozi/avatar.png">
 </head>
 <body>
@@ -55,7 +56,7 @@
     <header class="momo-brand" aria-label="MoMoZi"><img src="momozi/avatar.png" alt="MoMoZi GitHub avatar"><div><strong>MoMoZi<span>’s little world</span></strong><small>AI · OPEN SOURCE · A LITTLE MAGIC</small></div></header>
     <section class="momo-welcome" aria-label="欢迎来到 MoMoZi 的小世界"><p class="eyebrow">SOMEWHERE BETWEEN CODE & DAYDREAMS</p><h1>把好奇心，<br>开进小世界<span>♡</span></h1><p>一辆小车，一座小岛，和一些天马行空的想法。<br>欢迎来玩，我是 MoMoZi，一个把 AI 想法做成产品的人。</p></section>
     <div class="momo-start"><button id="momo-enter" disabled>正在装好整个小世界… <span id="momo-progress">0%</span></button><small>建议开启声音 · 键盘 / 触屏 / 手柄均可探索</small></div>
-    <nav class="momo-dock" aria-label="小岛快捷导航"><button data-momo-action="map">地图 <kbd>M</kbd></button><button data-momo-action="projects">作品</button><button data-momo-action="home">关于我</button><button data-momo-action="connect">找我</button><button data-momo-action="sound" aria-label="切换声音">声音</button><button data-momo-action="day" aria-label="切换昼夜">昼夜</button><button data-momo-action="controls">怎么玩 <kbd>?</kbd></button></nav>
+    <nav class="momo-dock" aria-label="小岛快捷导航"><button data-momo-action="map">地图 <kbd>M</kbd></button><button data-momo-action="projects" aria-label="开车去作品工坊">工坊</button><button data-island-open>小岛护照</button><button data-momo-action="home">关于我</button><button data-momo-action="connect">找我</button><button data-momo-action="sound" aria-label="切换声音">声音</button><button data-momo-action="day" aria-label="切换昼夜">昼夜</button><button data-momo-action="controls">怎么玩 <kbd>?</kbd></button></nav>
     <aside class="momo-drive-hint"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 开车</span><span><kbd>Shift</kbd> 加速</span><span><kbd>Space</kbd> 跳跃 · <kbd>H</kbd> 喇叭</span><span><kbd>R</kbd> 回正</span><span><kbd>Enter</kbd> 互动</span></aside>
     <div id="momo-error" role="alert" hidden></div>
     <div class="game">
@@ -244,6 +245,7 @@
                                     <div class="momo-education"><span class="momo-kicker">研究与教育背景</span><h3>北京理工大学 · 本科 & 硕士</h3><p>生物医学工程 · 本科 2013–2017 / 硕士 2017–2020</p><p>研究方向：计算机视觉、3D 重建、图像分割与仿真建模。早期参与发表 SCI 论文 10+ 篇。</p></div>
                                     <p>工作之外，我写 Skills、做多智能体决策和 Code Agent，也在「<strong>momo子讲AI</strong>」分享 AI 的观察与实践。</p>
                                     <div class="momo-inline-actions"><button type="button" data-profile-go="career">看看我的来时路 <span aria-hidden="true">→</span></button><button type="button" data-profile-go="projects">逛逛开源作品 <span aria-hidden="true">→</span></button></div>
+                                    <div class="momo-inline-actions"><button type="button" data-island-shelf>翻翻我的 AI 小书架 · 6 篇精选 →</button><a href="https://momozi.vip/" target="_blank" rel="noopener noreferrer">知 AI · 我的知识库 ↗</a></div>
                                     <p class="momo-signoff">也欢迎开着小车，继续在小岛上闲逛 ♡</p>
                                 </section>
                                 <section id="momo-panel-career" class="momo-profile-panel" data-profile-panel="career" role="tabpanel" aria-labelledby="momo-tab-career" tabindex="0" hidden>
@@ -778,6 +780,11 @@
 
         <!-- Modals -->
         <div class="js-modals modals">
+            <div class="js-modal modal momo-island-modal" data-name="island" role="dialog" aria-modal="true" aria-labelledby="island-title">
+                <button type="button" class="js-close island-close js-main-focus" aria-label="关闭小岛手记">×</button>
+                <div class="island-scroll" data-island-content></div>
+                <p class="island-status" data-island-status role="status" aria-live="polite"></p>
+            </div>
 
             <!-- Circuit end -->
             <div class="js-modal modal circuit-end" data-name="circuit-end">

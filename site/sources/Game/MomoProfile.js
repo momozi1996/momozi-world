@@ -28,6 +28,9 @@ export function selectProfileTab(name, focus = false) {
     root.querySelectorAll('[data-profile-panel]').forEach(panel => {
         panel.hidden = panel.dataset.profilePanel !== name
     })
+    root.dataset.activeTab = name
+    root.closest('.js-menu')?.classList.toggle('momo-compact-profile', name !== 'about')
+    document.dispatchEvent(new CustomEvent('momo-profile-tab', { detail: name }))
     const scroller = root.closest('.home-content')
     if (scroller) scroller.scrollTop = 0
     if (focus) selected.focus({ preventScroll: true })
@@ -61,7 +64,7 @@ export function installMomoProfile() {
                     <p>${escape(project.description)}</p>
                     ${tags(project.tags)}
                     ${project.note ? `<p class="momo-project-note">${escape(project.note)}</p>` : ''}
-                    <div class="momo-project-links">${project.links.map(link => externalLink(link.label, link.url)).join('')}</div>
+                    <div class="momo-project-links"><button type="button" data-island-project="${escape(project.id)}">读一张作品卡 →</button>${project.links.map(link => externalLink(link.label, link.url)).join('')}</div>
                 </article>`).join('')}
             ${group.id === 'skills' ? `<aside class="momo-directory-note"><strong>在更多地方遇见我的 Skills</strong><p>Skills 作品已被多个技能目录与开源索引收录。</p>${tags(skillDirectories)}</aside>` : ''}
         </section>`).join('')

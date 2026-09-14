@@ -1,6 +1,6 @@
 {
   "name": "momozi-cotton-candy-world",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,9 @@
     "start": "node server.mjs",
     "build:online": "VITE_SERVER_URL=auto vite build --mode production",
     "test": "node --test tests/*.test.mjs",
-    "verify:release": "node scripts/release-integrity.mjs"
+    "verify:release": "node scripts/release-integrity.mjs",
+    "verify:v2": "node scripts/release-v2-integrity.mjs",
+    "test:island": "node scripts/test-island-v2.cjs"
   },
   "author": "",
   "license": "MIT",

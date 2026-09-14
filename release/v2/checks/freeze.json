@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "checkedAt": "2026-09-14T20:37:17.468950+08:00",
+  "baseline": "fa9104b",
+  "branch": "feat/v2-small-discoveries",
+  "releaseTag": "v2.0.0",
+  "scope": "Rebuild, verify and freeze existing 2.0; no application/content/dependency changes in this freeze pass.",
+  "unchangedSinceBeforeFreeze": {
+    "site/sources": 161,
+    "site/static": 990,
+    "site/dist": 995
+  },
+  "allProtectedFilesUnchanged": 2192,
+  "rebuildByteIdentical": true,
+  "unitTests": {
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "report": "unit-tests.txt"
+  },
+  "productionBrowserReport": "production/browser-report.json",
+  "colorBrowserReport": "colors/report.json",
+  "developmentReport": {
+    "path": "browser-report.json",
+    "reuseReason": "Same-day passing report; application source and static resources byte-identical in this freeze pass."
+  },
+  "staticAssetsMatchingDist": 990,
+  "buildWarnings": "Inherited resource-path / vm-browserify eval / large bundle warnings; no dependency upgrades.",
+  "v1ReleaseFilesUnchanged": true,
+  "existingRuntimeStateUnchanged": true,
+  "localEnvUnchanged": true,
+  "worldStateIncludedInCodePatch": false,
+  "envIncludedInCodePatch": false,
+  "trackedRuntimeAndEnvInBaseline": true,
+  "mainUnchanged": true,
+  "publicDeployment": false,
+  "remotePush": false
+}

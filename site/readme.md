@@ -1,32 +1,24 @@
-# MoMoZi World · v1.0.0
+# MoMoZi World · v2.0.0
 
-封板日期：2026-09-11。这里是**正式应用目录**，内容和配色已按最终确认版本保留。
-
-完整目录说明见上一级 `README.md`；验收记录见上一级 `RELEASE.md`。
-
-## 使用已构建的版本
+这里是已冻结的 **v2.0.0** 正式应用目录。本地 Git 标签为 `v2.0.0`，冻结与恢复说明见上一级 `FREEZE.md`。完整变更与回退说明见上一级 `README.md`，本版验收见 `../release/v2/RELEASE.md`。
 
 ```sh
-# 换机器：先安装 Node.js >=22.12.0 / npm >=10.5.1，再 npm ci
-npm start
+npm ci                    # 仅换机器时需要；Node >=22.12.0，npm >=10.5.1
+npm start                 # http://localhost:5179/，仅公开 dist
+npm test
+npm run build:online      # 从源码构建同源 HTTP / WebSocket 在线版
+npm run verify:v2         # 只读校验 2.0 独立快照
+npm run dev -- --port 5192 # 开发预览
 ```
 
-打开 `http://localhost:5179/`。服务器只公开 `dist/`，并提供 `/world` WebSocket 与 `/api/health`。不要双击 HTML，也不要把项目根目录作为静态公开目录。
+`verify:release` 仍校验历史 1.0；不要重写旧封板清单消除 2.0 差异。`data/` 和 `.env` 保持本机运行状态，不作为发布资源；已有配置不要覆盖。服务器配置使用 shell 的 `HOST` / `PORT` / `STATE_FILE`。
 
-## 维护
+浏览器验收（需可用 Chrome 和 Playwright）：
 
 ```sh
-npm run verify:release              # 检查是否仍与封板快照一致，不修改文件
-npm test                           # 自动化测试；需要已有 dist
-npm run dev -- --port 5178          # 开发预览，不代表 production dist 已更新
-npm run build:online                # 正式在线构建；会清空并重建 dist
-npm start
+PLAYWRIGHT_MODULE=/path/to/playwright SITE_URL=http://localhost:5179/ npm run test:island
 ```
 
-新机器没有 `.env` 时，复制 `.env.example`，不要覆盖已有本地配置。冻结依赖使用 `npm ci`，不要沿用上游 `npm install --force` 指令。
+这会在独立浏览器上下文中检查护照、真实场景互动点、下载、旧存档兼容、移动端、输入隔离和失败反馈，输出到 `../release/v2/checks/`。重新生成证据后，快照会有正常差异；仅在新一轮正式验收完成后显式建立新快照。
 
-- `sources/`：当前源码；`static/`：公共资源；`dist/`：正式网页。
-- `resources/`：原始创作素材；不是线上资源目录。
-- `data/`：可变世界状态，请单独备份，不用于判断应用版本。
-- `npm run build` 不等同于正式在线构建；本地默认配置会生成离线版。
-- 上游技术参考在 `../research/upstream-readme.md`，MIT 许可保留于 `license.md`。
+本版没有接入实时 AI、扩展公共留言或增加新的物理障碍。固定明信片取景素材的开发生成脚本是 `scripts/capture-island-postcards.cjs`，不是用户端摄影功能。

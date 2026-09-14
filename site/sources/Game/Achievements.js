@@ -1,5 +1,6 @@
 import * as THREE from 'three/webgpu'
 import achievementsData from '../data/achievements.js'
+import { passportGroups } from '../data/discoveries.js'
 import { Game } from './Game.js'
 import { timeToReadableString } from './utilities/time.js'
 import { uniform } from 'three/tsl'
@@ -41,7 +42,7 @@ export class Achievements
 
     setStorage()
     {
-        this.storage = {}
+        this.storage = { available: true }
 
         this.storage.save = () =>
         {
@@ -61,17 +62,18 @@ export class Achievements
             })
 
             const encodedData = JSON.stringify(data)
-            localStorage.setItem('achievements', encodedData)
+            try {
+                localStorage.setItem('achievements', encodedData)
+                this.storage.available = true
+            } catch { this.storage.available = false }
         }
 
         this.storage.get = () =>
         {
-            const localAchievements = localStorage.getItem('achievements')
-
-            if(localAchievements)
-                return JSON.parse(localAchievements)
-
-            return {}
+            try {
+                const data = JSON.parse(localStorage.getItem('achievements') || '{}')
+                return data && typeof data === 'object' && !Array.isArray(data) ? data : {}
+            } catch { this.storage.available = false; return {} }
         }
     }
 
@@ -291,6 +293,9 @@ export class Achievements
     setGroups()
     {
         this.groups = new Map()
+
+        // Optional discovery stamps use the SAME save, without changing old rewards.
+        for(const name of passportGroups) this.createGroup(name).progress = new Set()
         
         for(const [ name, title, description, total, unique = false ] of achievementsData)
         {

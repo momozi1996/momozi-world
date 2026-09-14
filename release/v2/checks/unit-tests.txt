@@ -1,0 +1,30 @@
+
+> momozi-cotton-candy-world@2.0.0 test
+> node --test tests/*.test.mjs
+
+✔ five small corners reuse existing areas, with honest editorial/demo labels (1.107833ms)
+✔ optional passport groups do not change the original achievements or paint thresholds (0.866667ms)
+✔ three same-origin postcard images exist and all new public copy respects privacy (0.209958ms)
+✔ six real readings distinguish publication dates, verified dates and fixed source revisions (1.134375ms)
+✔ public profile preserves the requested identity, anonymity and six-step career order (1.497459ms)
+✔ selected works cover all requested categories, repositories and website (0.285167ms)
+✔ social accounts use copy actions rather than invented profile URLs (0.106125ms)
+✔ about tabs have unique accessible relationships and a single initial selection (0.2555ms)
+✔ 3D project attributes describe the work without stale live-looking star counts (0.370791ms)
+✔ self-hosted server broadcasts, persists, and blocks traversal (1369.064083ms)
+✔ all tree species use green / yellow-green foliage and warm brown bark (0.719666ms)
+✔ water remains blue across shallow and deep regions, lamps are warm HDR emitters (0.079791ms)
+✔ natural UV palette retains 24 source slots and distinct wood / cream / metal tones (0.144292ms)
+✔ whispers persist and one guest replaces their own whisper (1.050333ms)
+✔ reject invalid coordinates and bound whisper pool (0.217708ms)
+✔ race leaderboard sorts, retains daily scores, sanitizes tags (0.136583ms)
+✔ cookie counter persists and rejects non-finite amounts (0.072292ms)
+✔ three altar events activate a tornado and it ends (0.074709ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1542.619125
